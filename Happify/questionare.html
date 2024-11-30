@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health Questionnaire</title>
+  <link rel="stylesheet" href="questionare.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Mental Health Questionnaire</h1>
+      <p>NOTE-Please answer the following questions honestly for optimal results.</p>
+    </header>
+    <form id="questionnaire-form">
+      <div class="question">
+        <label for="q1">1. How often do you feel stressed?</label>
+        <select id="q1" class="q" name="q1" required>
+          <option value="">Select an option</option>
+          <option value="rarely">Rarely</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="often">Often</option>
+          <option value="always">Always</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q2">2. How would you describe your sleep quality?</label>
+        <select id="q2" class="q" name="q2" required>
+          <option value="">Select an option</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="poor">Poor</option>
+          <option value="very_poor">Very Poor</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q3">3. Do you have someone to talk to about your feelings?</label>
+        <select id="q3" class="q" name="q3" required>
+          <option value="">Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q4">4. How often do you feel overwhelmed by daily tasks?</label>
+        <select id="q4" class="q" name="q4" required>
+          <option value="">Select an option</option>
+          <option value="rarely">Rarely</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="often">Often</option>
+          <option value="always">Always</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q5">5. How do you usually cope with stress?</label>
+        <select id="q5" class="q"  name="q5" required>
+          <option value="">Select an option</option>
+          <option value="healthy">Healthy methods (exercise, hobbies)</option>
+          <option value="neutral">Neutral methods (distraction)</option>
+          <option value="unhealthy">Unhealthy methods (overeating, etc.)</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q6">6. How would you describe your overall mood most of the time?</label>
+        <select id="q6" class="q" name="q6" required>
+          <option value="">Select an option</option>
+          <option value="positive">Positive</option>
+          <option value="neutral">Neutral</option>
+          <option value="negative">Negative</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q7">7. Do you experience physical symptoms when stressed (e.g., headaches)?</label>
+        <select id="q7" class="q" name="q7" required>
+          <option value="">Select an option</option>
+          <option value="rarely">Rarely</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="often">Often</option>
+          <option value="always">Always</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q8">8. How do you usually handle conflicts or disagreements?</label>
+        <select id="q8" class="q" name="q8" required>
+          <option value="">Select an option</option>
+          <option value="calm">Calmly discuss</option>
+          <option value="avoid">Avoid the issue</option>
+          <option value="angry">React angrily</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q9">9. How often do you take time for self-care?</label>
+        <select id="q9" class="q" name="q9" required>
+          <option value="">Select an option</option>
+          <option value="regularly">Regularly</option>
+          <option value="occasionally">Occasionally</option>
+          <option value="rarely">Rarely</option>
+          <option value="never">Never</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q10">10. Do you feel you can achieve a work-life balance?</label>
+        <select id="q10" class="q"  name="q10" required>
+          <option value="">Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q11">11. How often do you feel appreciated by others?</label>
+        <select id="q11" class="q" name="q11" required>
+          <option value="">Select an option</option>
+          <option value="often">Often</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="rarely">Rarely</option>
+          <option value="never">Never</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="q12">12. Do you find it difficult to stay motivated?</label>
+        <select id="q12" class="q" name="q12" required>
+          <option value="">Select an option</option>
+          <option value="yes">Yes</option>
+          <option value="sometimes">Sometimes</option>
+          <option value="no">No</option>
+        </select>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="thank-you-message" class="hidden">
+      <h2>Thank you for completing the questionnaire!</h2>
+    </div>
+  </div>
+  <script src="questionare.js"></script>
+</body>
+</html>
+

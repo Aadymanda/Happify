@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://files.123freevectors.com/wp-content/original/131567-abstract-pink-polygon-background-template-design.jpg");
+    background-size: 200% 200%;
+    animation: gradientAnimation 4s ;
+    color: #333;
+  }
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 100%;
+    }
+    
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: black;
+    font-size: 2rem;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: black;
+  }
+  
+  .question select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff99cc;
+    border-radius: 5px;
+    background-color: #fff0f6;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3385;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #thank-you-message {
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+  .q{
+    height: 50px;
+  }
+  
